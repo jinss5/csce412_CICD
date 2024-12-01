@@ -27,4 +27,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
 
-    - run: aws cloudfront create-invalidation --distribution-id YOUR_DISTRIBUTION_ID --paths "/*"
+    - run: aws cloudfront create-invalidation --distribution-id EYMFE2YC2XD8L --paths "/*"
